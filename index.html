@@ -2,21 +2,50 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Challenge: Seasonal ids</title>
+        <title>Seizure warning</title>
         <style>
+           #summer {background-color: rgb(250, 200, 75);
+            color: rgb(255, 0, 0);
+        } 
             
-            
-            
+           #winter {background-color: rgb(193, 255, 234);
+            color: blueviolet;    
+        }
+
+        body,html{animation: colorChange 50ms infinite alternate;}
+        @keyframes colorChange{ 
+            0% {background-color: rgb(250, 200, 75)}
+            50%{background-color: rgb(213, 225, 121) ;}
+            100%{ background-color: rgb(193, 255, 234)}
+
+        }
+        h2{width: 500px;}
+        h1{background-color: black; color: aliceblue;}
+        
+
         </style>
     </head>
-    <body>
+    <body><center>
         
-        <h1>Olaf's favorite seasons</h1>
+        <h1>Olaf's favorite seasons</h1><br>
         
         <h2 id="summer">Summer</h2>
-        <p>He's a happy snowman, doing what frozen things do in summer.</p>
+        <p>He's a happy snowman, doing what frozen things do in summer.<br>
+            If he's lucky he'll never learn the horror's<br>
+            What summer brings<br>
+            He will Melt<br>
+
+        </p>
+        
         
         <h2 id="winter">Winter</h2>
-        <p>He likes to stay in and cuddle</p>
+        <p>He likes to stay in and cuddle<br>
+            Winter is amazing Olaf will live forever.<br>
+            He will never leave<br>
+
+
+        </p>
+    </center>
+        
     </body>
 </html>
